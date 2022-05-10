@@ -10,7 +10,7 @@
       *  CALCULATES COMMISIONS FOR SALES AND MANAGEMENT EMPLOYEE       *
       *  BASED ON MONTHLY SALES RATES                                  *
       *                                                                *
-      *  Demo 10-05-2022 5:30 PM                                      *
+      *  Demo 10-05-2022 5:45 PM                                      *
       ******************************************************************
        ENVIRONMENT DIVISION.
        DATA DIVISION.
