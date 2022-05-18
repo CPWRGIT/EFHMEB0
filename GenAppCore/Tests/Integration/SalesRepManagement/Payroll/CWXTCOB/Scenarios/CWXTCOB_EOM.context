@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="true">
   <ExtensionData>
     <Parameter key="nvt_ispw_app">
-      <Value>GITE</Value>
+      <Value>GITK</Value>
     </Parameter>
     <Parameter key="nvt_ispw_level4">
       <Value>MAIN</Value>
@@ -12,6 +12,9 @@
     </Parameter>
     <Parameter key="nvt_ispw_level2">
       <Value>FT1</Value>
+    </Parameter>
+    <Parameter key="nvt_ispw_level1">
+      <Value>UT1</Value>
     </Parameter>
   </ExtensionData>
   <ExtensionData componentName="cwxtcob" componentId="5d5fea81180742000cf98888" />
