@@ -121,8 +121,8 @@ tmpOutput.toFixed(2)]]></Statement>
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //FASTEP   EXEC PGM=FILEAID,REGION=08M
-//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJ.#CWCC.CXVJLOAD
-//         DD DISP=SHR,DSN=SYS2.CW.&CWGAVJ..SXVJLOAD           
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*
 //DD01     DD  DSN=${outDatasetNameExpected},
@@ -162,7 +162,7 @@ $$DD01 COMPARE
  SSID=MXG1                                                                     
  TYPE=BATCH                                                                    
  FORMAT=DATETIME                                                               
- D ${userid}E XATEST   *        *        N 2020/03/31                            
+ D HDDRXM0E XATEST   *        *        N 2020/03/31                            
 //*]]></Content>
       </Job>
     </Scope>
